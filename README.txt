@@ -1,7 +1,9 @@
-Ubuntu 16.04(best) or 18.04
+Ubuntu 16.04(best)
 
 1. https://github.com/GENIVI/capicxx-dbus-tools/wiki/CommonAPI-C---D-Bus-in-10-minutes
 2. https://github.com/GENIVI/capicxx-someip-tools/wiki/CommonAPI-C---SomeIP-in-10-minutes
+
+if you used 16.04, you don't need to install below step
 
 3. Install gcc-4.9:
 	1.su to root, and modify /etc/apt/sources.list by adding
@@ -25,6 +27,9 @@ Ubuntu 16.04(best) or 18.04
 	ln -s /usr/bin/g++-4.9 /usr/bin/g++
 	
 5. Install boost
-	sudo apt-get install libboost.1.58-dev
+	sudo apt-get install libboost.1.58
 	sudo apt install libboost-system-dev libboost-thread-dev libboost-program-options-dev libboost-test-dev
 	sudo apt -y install libboost-filesystem-dev
+	
+	
+6. /usr/local/lib
